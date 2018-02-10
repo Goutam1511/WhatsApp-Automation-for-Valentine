@@ -13,10 +13,11 @@ def send_msg(msg,driver):
 driver = webdriver.Firefox()
 driver.get("https://web.whatsapp.com")
 sleep(5)
-element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"Piyush CSE IEM A")]')
-element.click()
+
 headers={ "X-Mashape-Key": "IJW6kuTHHkmshZwYVVAC5kFRvqadp1tix0OjsnnAsrAnQ7ZHRv", "Accept": "application/json" }
 while True:
+	element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"Ritushree")]')
+	element.click()
 	response = requests.get("https://ajith-messages.p.mashape.com/getMsgs?category=friendship", headers=headers ).json()
 	send_msg(response["Message"],driver)
 	sleep(25)
