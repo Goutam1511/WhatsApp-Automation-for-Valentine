@@ -41,7 +41,7 @@ songs=['non empty songs list'] #fill some popular love song names
 
 while True:
 	try :
-		element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"Bachchar IEM CSE A")]')
+		element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"Ritushree")]')
 		element.click()
 		all_text_msg = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[3]/div/div[2]/div/div/div[3]').text.split("\n")
 		if 'yes' not in all_text_msg[-2].lower().split(" ") or 'ha' not in all_text_msg[-2].lower().split(" ") :
