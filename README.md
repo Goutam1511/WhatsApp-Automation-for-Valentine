@@ -5,7 +5,7 @@ This is a python script to automatically send love mesages fetching them from a 
 
 Documentation for Setting up :
 
-First of all replace the <Valentine's name> in the script with the name of the person to be sent messages and this name should be provided exactly as it is in the contact.  
+First of all replace the <Valentine's name> in the script with the name of the person to be sent messages and this name should be provided exactly as it is in the contact. Also, change the <Your API KEY> in the headers dictionary with your generated API Key for the Messages API. 
 Run the python script using the "python <filename>.py" command. 
 The Whatsapp Web will open in the browser and ask to scan the QR code(This will happen each time and is yet to be fixed. Maybe next valentine :P). After scanning the QR code it will wait and then choose the required person's chat and start sending love messages and songs at an interval of the predefined time in the script.
 
