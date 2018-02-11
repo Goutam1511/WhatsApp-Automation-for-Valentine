@@ -1,11 +1,11 @@
 # WhatsApp-Automation-for-Valentine
-This valentine impress your valentine and spread love with the power of Selenium Python using Automated WhatsApp Love messages.
+This valentine impress your valentine and spread love with the power of Selenium Python using Automated WhatsApp Love messages and songs.
 
 This is a python script to automatically send love mesages fetching them from a open-source Message API to someone who is in your WhatsApp chatlist(in short your valentine). However the message type can be changed changing the category type of the messages. So, feel free to edit the script according to your requirements.
 
 Documentation for Dependencies :
 
-1.1 Messages API
+1.1. Messages API
 
 Retrieve random messages based on your selected category. You can use this API for text messaging applications,Status updating applications and more!!
 
@@ -34,3 +34,9 @@ Firefox: 	https://github.com/mozilla/geckodriver/releases
 Safari: 	https://webkit.org/blog/6900/webdriver-support-in-safari-10/
 
 In this project Firefox browser is used for the whole purpose but feel free to change it as per need. 
+
+1.4. Google Search API
+
+Google Search API is a python based library for searching various functionalities of google. It uses screen scraping to retrieve the results, and thus is unreliable if the way google's web pages are returned change in the future. This package is currently under heavy refactoring so changes in the user interface should be expected for the time being.
+
+For more details please visit : https://github.com/abenassi/Google-Search-API/blob/master/README.md
