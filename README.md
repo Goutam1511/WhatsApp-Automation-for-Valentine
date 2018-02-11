@@ -8,6 +8,8 @@ Documentation for Setting up :
 First of all replace the <Valentine's name> in the script at line 44 with the name of the person to be sent messages and this name should be provided exactly as it is in the contact. Also, change the <Your API KEY> in the headers dictionary at line 38 of the script with your generated API Key for the Messages API. 
 Run the python script using the "python <filename>.py" command. 
 The Whatsapp Web will open in the browser and ask to scan the QR code(This will happen each time and is yet to be fixed. Maybe next valentine :P). After scanning the QR code it will wait and then choose the required person's chat and start sending love messages and songs at an interval of the predefined time in the script.
+  
+NOTE : Python version 2.7 is used here. To download and install Python 2.7, check out https://www.python.org/download/releases/2.7/
 
 Documentation for Dependencies :
 
