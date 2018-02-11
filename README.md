@@ -3,6 +3,12 @@ This valentine impress your valentine and spread love with the power of Selenium
 
 This is a python script to automatically send love mesages fetching them from a open-source Message API or love moments from a predefined list and songs from Google to dedicate to someone who is in your WhatsApp chatlist(in short your valentine). However the message type can be changed changing the category type of the messages. So, feel free to edit the script according to your requirements.
 
+Documentation for Setting up :
+
+First of all replace the <Valentine's name> in the script with the name of the person to be sent messages and this name should be provided exactly as it is in the contact.  
+Run the python script using the "python <filename>.py" command. 
+The Whatsapp Web will open in the browser and ask to scan the QR code(This will happen each time and is yet to be fixed. Maybe next valentine :P). After scanning the QR code it will wait and then choose the required person's chat and start sending love messages and songs at an interval of the predefined time in the script.
+
 Documentation for Dependencies :
 
 1.1. Messages API
