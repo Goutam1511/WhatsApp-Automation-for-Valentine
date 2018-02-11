@@ -1,7 +1,7 @@
 # WhatsApp-Automation-for-Valentine
 This valentine impress your valentine and spread love with the power of Selenium Python using Automated WhatsApp Love messages and songs.
 
-This is a python script to automatically send love mesages fetching them from a open-source Message API to someone who is in your WhatsApp chatlist(in short your valentine). However the message type can be changed changing the category type of the messages. So, feel free to edit the script according to your requirements.
+This is a python script to automatically send love mesages fetching them from a open-source Message API or love moments from a predefined list and songs from Google to dedicate to someone who is in your WhatsApp chatlist(in short your valentine). However the message type can be changed changing the category type of the messages. So, feel free to edit the script according to your requirements.
 
 Documentation for Dependencies :
 
