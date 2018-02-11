@@ -42,6 +42,7 @@ songs=['non empty songs list'] #write and fill some popular love song names
 while True:
 	try :
 		element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"<VALENTINES NAME>")]') #replace name of your valentine here
+		#element = driver.find_element_by_xpath('//div[@id="pane-side"]//span[contains(@title,"Ritushree")]')
 		element.click() #select chat. This is repeated to select chat repeatedly to avoid falter even if another chat is selected
 		all_text_msg = driver.find_element_by_xpath('/html/body/div[1]/div/div/div[3]/div/div[2]/div/div/div[3]').text.split("\n") #retrieve last sent message
 		if 'yes' not in all_text_msg[-2].lower().split(" ") or 'ha' not in all_text_msg[-2].lower().split(" ") : #check if last sent message is a 'Yes' to your last proposal
